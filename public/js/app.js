@@ -44687,8 +44687,41 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      promotions: [{ name: 'Название акции 1', desc: 'Описание акции', cat: 'Категория' }, { name: 'Название акции 2', desc: 'Описание акции', cat: 'Категория' }, { name: 'Название акции 3', desc: 'Описание акции', cat: 'Категория' }, { name: 'Название акции 4', desc: 'Описание акции', cat: 'Категория' }, { name: 'Название акции 5', desc: 'Описание акции', cat: 'Категория' }, { name: 'Название акции 6', desc: 'Описание акции', cat: 'Категория' }, { name: 'Название акции 7', desc: 'Описание акции', cat: 'Категория' }, { name: 'Название акции 8', desc: 'Описание акции', cat: 'Категория' }, { name: 'Название акции 9', desc: 'Описание акции', cat: 'Категория' }],
+      query: ''
+    };
+  },
   mounted: function mounted() {
     console.log('Component mounted.');
   }
@@ -44702,29 +44735,101 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", [
+    _vm._m(0),
+    _vm._v(" "),
+    _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("div", { staticClass: "form-group" }, [
+          _c("input", {
+            directives: [
+              {
+                name: "model",
+                rawName: "v-model",
+                value: _vm.query,
+                expression: "query"
+              }
+            ],
+            staticClass: "form-control",
+            attrs: { type: "text", name: "", value: "" },
+            domProps: { value: _vm.query },
+            on: {
+              input: function($event) {
+                if ($event.target.composing) {
+                  return
+                }
+                _vm.query = $event.target.value
+              }
+            }
+          })
+        ])
+      ])
+    ]),
+    _vm._v(" "),
+    _vm.query
+      ? _c("div", [
+          _vm._m(1),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "row" },
+            _vm._l(_vm.promotions, function(promo) {
+              return _c("div", { staticClass: "col-sm-6 col-md-4" }, [
+                _c("div", { staticClass: "thumbnail equal-min-height" }, [
+                  _c("img", {
+                    staticClass: "img-rounded",
+                    attrs: { src: "img/img.jpg" }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "caption" }, [
+                    _c("h4", [
+                      _c("a", { attrs: { href: "#" } }, [
+                        _vm._v(
+                          "\n                " +
+                            _vm._s(promo.name) +
+                            "\n              "
+                        )
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [_vm._v(_vm._s(promo.desc))]),
+                    _vm._v(" "),
+                    _c("p", [_vm._v(_vm._s(promo.cat))])
+                  ])
+                ])
+              ])
+            })
+          )
+        ])
+      : _vm._e(),
+    _vm._v(" "),
+    _vm._m(2)
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [_vm._v("\n       \n    ")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("h3", [_vm._v("Результаты поиска")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
     return _c("div", [
-      _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-12" }, [_vm._v("\n       \n    ")])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-12" }, [
-          _c("div", { staticClass: "form-group" }, [
-            _c("input", {
-              staticClass: "form-control",
-              attrs: { type: "text", name: "", value: "" }
-            })
-          ])
-        ])
-      ]),
-      _vm._v(" "),
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-md-12" }, [
           _c("h3", [_vm._v("Популярные категории")])
@@ -44783,7 +44888,7 @@ var staticRenderFns = [
             _c("div", { staticClass: "caption" }, [
               _c("h4", [
                 _c("a", { attrs: { href: "#" } }, [
-                  _vm._v("\n              Название акции\n            ")
+                  _vm._v("\n                Название акции\n              ")
                 ])
               ]),
               _vm._v(" "),
@@ -44804,7 +44909,7 @@ var staticRenderFns = [
             _c("div", { staticClass: "caption" }, [
               _c("h4", [
                 _c("a", { attrs: { href: "#" } }, [
-                  _vm._v("\n              Название акции\n            ")
+                  _vm._v("\n                Название акции\n              ")
                 ])
               ]),
               _vm._v(" "),
@@ -44825,7 +44930,7 @@ var staticRenderFns = [
             _c("div", { staticClass: "caption" }, [
               _c("h4", [
                 _c("a", { attrs: { href: "#" } }, [
-                  _vm._v("\n              Название акции\n            ")
+                  _vm._v("\n                Название акции\n              ")
                 ])
               ]),
               _vm._v(" "),
