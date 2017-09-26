@@ -17,7 +17,8 @@ import router from './router'
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example', require('./components/Example.vue'));
+Vue.component('search-panel', require('./components/SearchPanel.vue'));
+Vue.component('map-panel', require('./components/MapPanel.vue'));
 
 const app = new Vue({
     el: '#app',
