@@ -44645,6 +44645,48 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
@@ -44690,23 +44732,109 @@ var staticRenderFns = [
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-4" }, [_vm._v("\n      //\n    ")]),
+        _c("div", { staticClass: "col-md-4" }, [
+          _c("a", { attrs: { href: "#" } }, [_vm._v("Страхование")]),
+          _c("br"),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "#" } }, [_vm._v("Частные сады")]),
+          _c("br"),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "#" } }, [_vm._v("Детские центры")]),
+          _c("br")
+        ]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-md-4" }, [_vm._v("\n      //\n    ")]),
+        _c("div", { staticClass: "col-md-4" }, [
+          _c("a", { attrs: { href: "#" } }, [_vm._v("Рестораны")]),
+          _c("br"),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "#" } }, [_vm._v("Ветеринарные клиники")]),
+          _c("br"),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "#" } }, [_vm._v("Услуги для животных")]),
+          _c("br")
+        ]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-md-4" }, [_vm._v("\n      //\n    ")])
+        _c("div", { staticClass: "col-md-4" }, [
+          _c("a", { attrs: { href: "#" } }, [_vm._v("Магазины с одеждой")]),
+          _c("br"),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "#" } }, [_vm._v("Иностранные языки")]),
+          _c("br"),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "#" } }, [_vm._v("Боулинг и бильярд")]),
+          _c("br")
+        ])
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-md-12" }, [
           _c("h3", [_vm._v("Популярные акции")])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-sm-6 col-md-4" }, [
+          _c("div", { staticClass: "thumbnail equal-min-height" }, [
+            _c("img", {
+              staticClass: "img-rounded",
+              attrs: { src: "img/img.jpg" }
+            }),
+            _vm._v(" "),
+            _c("div", { staticClass: "caption" }, [
+              _c("h4", [
+                _c("a", { attrs: { href: "#" } }, [
+                  _vm._v("\n              Название акции\n            ")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("p", [_vm._v("Описание акции")]),
+              _vm._v(" "),
+              _c("p", [_vm._v("Категория")])
+            ])
+          ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-md-4" }, [_vm._v("\n      //\n    ")]),
+        _c("div", { staticClass: "col-sm-6 col-md-4" }, [
+          _c("div", { staticClass: "thumbnail equal-min-height" }, [
+            _c("img", {
+              staticClass: "img-rounded",
+              attrs: { src: "img/img.jpg" }
+            }),
+            _vm._v(" "),
+            _c("div", { staticClass: "caption" }, [
+              _c("h4", [
+                _c("a", { attrs: { href: "#" } }, [
+                  _vm._v("\n              Название акции\n            ")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("p", [_vm._v("Описание акции")]),
+              _vm._v(" "),
+              _c("p", [_vm._v("Категория")])
+            ])
+          ])
+        ]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-md-4" }, [_vm._v("\n      //\n    ")]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-md-4" }, [_vm._v("\n      //\n    ")])
+        _c("div", { staticClass: "col-sm-6 col-md-4" }, [
+          _c("div", { staticClass: "thumbnail equal-min-height" }, [
+            _c("img", {
+              staticClass: "img-rounded",
+              attrs: { src: "img/img.jpg" }
+            }),
+            _vm._v(" "),
+            _c("div", { staticClass: "caption" }, [
+              _c("h4", [
+                _c("a", { attrs: { href: "#" } }, [
+                  _vm._v("\n              Название акции\n            ")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("p", [_vm._v("Описание акции")]),
+              _vm._v(" "),
+              _c("p", [_vm._v("Категория")])
+            ])
+          ])
+        ])
       ])
     ])
   }
