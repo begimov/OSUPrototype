@@ -7,8 +7,8 @@ Vue.component('search-panel', require('./../components/SearchPanel.vue'));
 Vue.component('map-panel', require('./../components/MapPanel.vue'));
 
 const routes = [
-  { path: '/', component: Vue.component('search-panel') },
-  { path: '/map', component: Vue.component('map-panel') },
+  { path: '/', name: 'search-panel', component: Vue.component('search-panel') },
+  { path: '/map', name: 'map-panel', component: Vue.component('map-panel') },
 ]
 
 export default new VueRouter({

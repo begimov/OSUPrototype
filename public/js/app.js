@@ -41911,7 +41911,7 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_1_vue_
 __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('search-panel', __webpack_require__(52));
 __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('map-panel', __webpack_require__(55));
 
-var routes = [{ path: '/', component: __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('search-panel') }, { path: '/map', component: __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('map-panel') }];
+var routes = [{ path: '/', name: 'search-panel', component: __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('search-panel') }, { path: '/map', name: 'map-panel', component: __WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('map-panel') }];
 
 /* harmony default export */ __webpack_exports__["a"] = (new __WEBPACK_IMPORTED_MODULE_1_vue_router__["a" /* default */]({
   routes: routes
@@ -44634,7 +44634,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-8 col-md-offset-2" }, [
+        _c("div", { staticClass: "col-md-12" }, [
           _c("div", { staticClass: "panel panel-default" }, [
             _c("div", { staticClass: "panel-body" }, [
               _vm._v(
@@ -44746,7 +44746,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-8 col-md-offset-2" }, [
+        _c("div", { staticClass: "col-md-12" }, [
           _c("div", { staticClass: "panel panel-default" }, [
             _c("div", { staticClass: "panel-body" }, [
               _vm._v("\n                    I'm an map-panel\n                ")
